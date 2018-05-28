@@ -26,7 +26,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-//    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-//    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
-
+    //    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    //    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+    //compile 'mysql:mysql-connector-java:6.0.6'
+    //远程获得Utils3 的jar包
+    compile 'org.xutils:xutils:3.5.0'
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    //compile 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
 }
